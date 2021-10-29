@@ -1,0 +1,49 @@
+---
+title: "Presentación del curso"
+subtitle: "¿Qué aprenderemos y cómo?"
+author: "Daniel Jiménez M."
+date: "`r format(Sys.time(), '%d -%m -%Y')`"
+institute: "Universidad Nacional de Colombia"
+output: 
+  beamer_presentation:
+    theme: "Madrid"
+    colortheme: "beaver"
+    #incremental: true
+    slide_level: 2
+    latex_engine: xelatex
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Contenido 
+
+* ¿Qué aprenderemos en este curso?
+* ¿Dónde se encuentra el material del curso?
+* ¿Dónde se subirá el trabajo del curso?
+* Reglas de la clase
+* Presentación de los participantes
+* Contacto con el profesor
+
+
+## ¿Qué aprenderemos en este curso?
+
+La idea principal del curso es dotarle al participante de todas las herramientas necesarias para que pueda aborar soluciones a problemas con datos de la manera más oportuna y es por ello que este curso tendrá un enfoqué dividido en tres partes: 
+
+* Ciencia: Estádistica aplicada al análisis exploratorio de datos;
+* Tecnología: Github para el manejo de versionamiento del trabajo
+* Aplicación: Trabajaremos con bases de datos de la vida real, la mayoría de Kaggle y un último ejercicio con una base de datos de la JEP
+
+
+## ¿Qué aprenderemos en este curso?
+
+1. Introducción al manejo de git y github
+2. Introducción a Python
+3. Statistical Thinking en Python
+4. Modelamiento estadístico para el caso de textos
+
+
+## ¿Dónde se encuentra el material del curso?
+
+
