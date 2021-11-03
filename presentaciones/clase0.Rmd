@@ -46,4 +46,36 @@ La idea principal del curso es dotarle al participante de todas las herramientas
 
 ## ¿Dónde se encuentra el material del curso?
 
+URL : https://github.com/carlosjimenez88M/EDA_Course
+
+
+## ¿Dónde se subirá el trabajo del curso?
+
+Existe una carpeta dentro del repositorio, donde subiremos el trabajo individual y el grupal que desarrollaremos durantes las clases.
+
+## Reglas de la clase
+
+* Se tomará lista 20 minutos antes de terminar la clase
+* Se desarrollaran proyectos en grupo cada semana 
+* Cualquier inquietud puede contactar al profesor y este mismo tendrá un plazo de 48 horas para responder vía mail (menos los fines de semana)
+
+
+
+##  Presentación de los participantes
+
+Por favor presentese bajo los siguientes parámetros:
+
+* Nombre;
+
+* ¿A qué se dedica?;
+
+* Un hobbie;
+
+* Algo que rompa el hielo.
+
+## Contacto con el profesor
+
+* __Mail:__ danieljimenez88m@gmail.com
+* __Web:__ www.danieljimenezm.com
+* __Github:__ carlosjimenez88M
 

@@ -9,6 +9,20 @@ Instructor : *Daniel Jiménez M*
 * Github: carlosjimenez88M
 
 
+El uso de modelos computacionales (en especial los de computación científica) para la toma de decisiones, predicción de sucesos y clasificación de distintos tipos de problemas, basados en la cognición humana es el reto a enfrentar con las nuevas disciplinas que abordan la ciencia de datos, y es por ello que la Universidad Nacional de Colombia  ha diseñado este curso basado en tres pilares fundamentales : tecnología para el desarrollo del trabajo colaborativo, ciencia, para la aplicación de las últimas metodologías para entender y abordar problemas de datos y retos, estos para enfrentarnos a diferentes sets de datos con los cuales podamos desarrollar habilidades y enfoques con base a los instrumentos que veremos al rededor de la clase. 
+
+
+Dicho lo anterior este curso abarcará los siguientes temas (a alto nivel): Fundamentos de Python, fundamentos estadísticos, introducción al análisis probabilistico, y visualización de datos. Todo esto se llevará acabo en sesiones de dos horas por clase, los días: Lunes, miércoles y viernes.
+
+
+## Contenido del curso
+
+|Clase|Presentación|Notebook|
+|-----:|-----------:|------:|
+|Presentación del curso|[Introducción]()|No aplica|
+|Metodología de trabajo en Ciencia de datos|[Devops]()|No aplica|
+|Introducción a Git & Github|[Github]()||
+
 
 
 
