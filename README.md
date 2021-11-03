@@ -22,6 +22,20 @@ Dicho lo anterior este curso abarcará los siguientes temas (a alto nivel): Fund
 |Presentación del curso|[Introducción](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/clase0.pdf)|No aplica|
 |Metodología de trabajo en Ciencia de datos|[Devops]()|[Bert Example](https://colab.research.google.com/drive/1lkCDwp84CVZtBxzrQiMmAwLt8aCqnQMv?authuser=1#scrollTo=xFER1f6SR3my)|
 
+## Material de apoyo
+(Tomado del repo de tidytuesday)
+
+| Link | Description |
+| --- | --- |
+| [Link](https://serialmentor.com/dataviz/) | Fundamentals of Data Viz by Claus Wilke |
+| [Link](https://bookdown.org/rdpeng/artofdatascience/) | The Art of Data Science by Roger D. Peng & Elizabeth Matsui |
+| [Link](https://www.tidytextmining.com/) | Tidy Text Mining by Julia Silge & David Robinson |
+| [Link](https://geocompr.robinlovelace.net/) | Geocomputation with R by Robin Lovelace, Jakub Nowosad, Jannes Muenchow |
+| [Link](https://socviz.co/index.html#preface) | Data Visualization by Kieran Healy |
+| [Link](http://www.cookbook-r.com/Graphs/) | `ggplot2` cookbook by Winston Chang |
+ [Link](https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535) | BBC Data Journalism team |
+
+
 
 
 
