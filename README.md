@@ -30,7 +30,7 @@ Dicho lo anterior este curso abarcará los siguientes temas (a alto nivel): Fund
 | [Link](https://serialmentor.com/dataviz/) | Fundamentos de visualización de dato|
 | [Link](https://www.statlearning.com/) | An Introduction to Statistical Learning |
 | [Link](https://www.tidytextmining.com/) | Tidy Text Mining by Julia Silge & David Robinson |
-| [Link](https://www.amazon.com/-/es/Suresh-Kumar-Mukhiya/dp/1789537258) | Exploratorhy Data Analysis with Python|
+| [Link](https://www.amazon.com/-/es/Suresh-Kumar-Mukhiya/dp/1789537258) | Exploratory Data Analysis with Python|
 | [Link](https://arxiv.org/abs/1706.03762) | Transformers is all you need |
  [Link](https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535) | BBC Data Journalism team |
 
