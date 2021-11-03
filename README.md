@@ -20,7 +20,7 @@ Dicho lo anterior este curso abarcará los siguientes temas (a alto nivel): Fund
 |Clase|Presentación|Notebook|
 |-----:|-----------:|------:|
 |Presentación del curso|[Introducción](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/clase0.pdf)|No aplica|
-|Metodología de trabajo en Ciencia de datos|[Devops]()|[Bert Example](https://colab.research.google.com/drive/1lkCDwp84CVZtBxzrQiMmAwLt8aCqnQMv?authuser=1#scrollTo=xFER1f6SR3my)|
+|Metodología de trabajo en Ciencia de datos|[Devops](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/clase0.1.pdf)|[Bert Example](https://colab.research.google.com/drive/1lkCDwp84CVZtBxzrQiMmAwLt8aCqnQMv?authuser=1#scrollTo=xFER1f6SR3my)|
 
 ## Material de apoyo
 
