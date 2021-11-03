@@ -34,6 +34,11 @@ Dicho lo anterior este curso abarcará los siguientes temas (a alto nivel): Fund
 | [Link](https://arxiv.org/abs/1706.03762) | Transformers is all you need |
  [Link](https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535) | BBC Data Journalism team |
 
+## Programas requeridos para el curso
+
+* [Python 3.8](https://www.python.org/downloads/macos/)
+* [Anaconda](https://www.anaconda.com/products/individual)
+* [Visual Studio Code](https://code.visualstudio.com/download)
 
 
 
