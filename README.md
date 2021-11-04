@@ -7,6 +7,7 @@ Instructor : *Daniel Jiménez M*
 * Email : danieljimenez88m@gmail.com
 * Web: www.danieljimenezm.com
 * Github: carlosjimenez88M
+* Telefono: 3228169956
 
 
 El uso de modelos computacionales (en especial los de computación científica) para la toma de decisiones, predicción de sucesos y clasificación de distintos tipos de problemas, basados en la cognición humana es el reto a enfrentar con las nuevas disciplinas que abordan la ciencia de datos, y es por ello que la Universidad Nacional de Colombia  ha diseñado este curso basado en tres pilares fundamentales : tecnología para el desarrollo del trabajo colaborativo, ciencia, para la aplicación de las últimas metodologías para entender y abordar problemas de datos y retos, estos para enfrentarnos a diferentes sets de datos con los cuales podamos desarrollar habilidades y enfoques con base a los instrumentos que veremos al rededor de la clase. 
