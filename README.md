@@ -30,7 +30,7 @@ Dicho lo anterior este curso abarcará los siguientes temas (a alto nivel): Fund
 | Tema| Link |Recurso|
 | --- | --- | --- |
 |Procesos Gausianos|[link](https://towardsdatascience.com/gaussian-process-first-step-towards-active-learning-in-physics-239a8b260579)|[Notebook](https://colab.research.google.com/github/ziatdinovmax/notebooks_for_medium/blob/main/GP_for_medium.ipynb)|
-|Exploratory Data Analysis|[Link](Semi-Automated Exploratory Data Analysis (EDA) in Python)|[Notebook](https://github.com/hmix13/Sweetviz/blob/master/sweetviz.ipynb)|
+|Exploratory Data Analysis|[Link]()|[Notebook](https://github.com/hmix13/Sweetviz/blob/master/sweetviz.ipynb)|
 |Matemáticas aplicadas al Machine Learning|[Link](https://mml-book.github.io/book/mml-book.pdf)|[Notebook](https://github.com/luonglearnstocode/math-for-machine-learning)| 
 
 
