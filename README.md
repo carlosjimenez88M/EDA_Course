@@ -24,6 +24,16 @@ Dicho lo anterior este curso abarcará los siguientes temas (a alto nivel): Fund
 |Metodología de trabajo en Ciencia de datos|[Devops](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/clase0.1.pdf)|[Bert Example](https://colab.research.google.com/drive/1lkCDwp84CVZtBxzrQiMmAwLt8aCqnQMv?authuser=1#scrollTo=xFER1f6SR3my)|
 |Programas a instalar|[clase1](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/clase1.1.pdf)|No Aplica|
 
+
+## Lecturas recomendadas
+
+| Tema| Link |Recurso|
+| --- | --- | --- |
+|Procesos Gausianos|[link](https://towardsdatascience.com/gaussian-process-first-step-towards-active-learning-in-physics-239a8b260579)|[Notebook](https://colab.research.google.com/github/ziatdinovmax/notebooks_for_medium/blob/main/GP_for_medium.ipynb)|
+|Exploratory Data Analysis|[Link](Semi-Automated Exploratory Data Analysis (EDA) in Python)|[Notebook](https://github.com/hmix13/Sweetviz/blob/master/sweetviz.ipynb)|
+|Matemáticas aplicadas al Machine Learning|[Link](https://mml-book.github.io/book/mml-book.pdf)|[Notebook](https://github.com/luonglearnstocode/math-for-machine-learning)| 
+
+
 ## Material de apoyo
 
 
@@ -36,6 +46,17 @@ Dicho lo anterior este curso abarcará los siguientes temas (a alto nivel): Fund
 | [Link](https://arxiv.org/abs/1706.03762) | Transformers is all you need |
  [Link](https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535) | BBC Data Journalism team |
 
+ ## Algunos links recomendados 
+ |Curso|Tipo|Tema|URL|
+ |----:|---:|---:|--:|
+ |Introducción al Machine Learning| Curso libre|Principios de Machine Learning|[Link](https://www.coursera.org/learn/machine-learning)|
+ |Introducción a las bases de datos para el analísis de datos|Coursera|Introducción a las bases de datos|[Link](https://www.coursera.org/learn/sql-for-data-science)|
+ |Manejo de Git & Github|Tutrial|Manejo de versionamiento de respositorio y trabajo colaborativo|[Link](https://www.youtube.com/watch?v=HiXLkL42tMU)|
+ |Matemáticas para Machine Learning|Tutorial|Fundamentos necesarios para el desarrollo del trabajo con datos|[Link](https://www.youtube.com/watch?v=1VSZtNYMntM&t=1563s)|
+ |Álgebra Lineal|Curso libre|Fundamentos algebraicos|[Link](https://www.khanacademy.org/math/algebra)|
+ |Fundamentos de github|Tutorial|Introducción end to end github|[Link](https://docs.github.com/en/get-started/quickstart/git-and-github-learning-resources)|
+ 
+
 ## Programas requeridos para el curso
 
 * [Python 3.8](https://www.python.org/downloads/macos/)
@@ -43,7 +64,31 @@ Dicho lo anterior este curso abarcará los siguientes temas (a alto nivel): Fund
 * [Visual Studio Code](https://code.visualstudio.com/download)
 
 
+## Canales recomendados
 
+En esta sección encontrará algunos canales que recomiendo para entender como hacer trabajo con análisis de datos, notará que algunos estan basados en **R**, pero es debido a la explicación que da el autor del ¿por qué uso x o y técnica?, más lo mismo se desarrolla en Python.
+
+|Canal|Link|
+|----:|---:|
+|David Robinson|[![Open in Youtube](https://img.shields.io/static/v1?label=&message=Open%20in%20youtube&labelColor=red&color=blue&logo=youtube)](https://www.youtube.com/user/safe4democracy/videos)|
+|Julia Silge|[![Open in Youtube](https://img.shields.io/static/v1?label=&message=Open%20in%20youtube&labelColor=red&color=blue&logo=youtube)](https://www.youtube.com/channel/UCTTBgWyJl2HrrhQOOc710kA)|
+|Luke Barousse|[![Open in Youtube](https://img.shields.io/static/v1?label=&message=Open%20in%20youtube&labelColor=red&color=blue&logo=youtube)](https://www.youtube.com/c/LukeBarousse)|
+|Ken Jee|[![Open in Youtube](https://img.shields.io/static/v1?label=&message=Open%20in%20youtube&labelColor=red&color=blue&logo=youtube)](https://www.youtube.com/c/KenJee1/videos)|
+|Data Professor|[![Open in Youtube](https://img.shields.io/static/v1?label=&message=Open%20in%20youtube&labelColor=red&color=blue&logo=youtube)](https://www.youtube.com/c/DataProfessor/videos)|
+
+
+## Competencia Final
+
+Por grupos desarrollaremos un análisis de datos de principio a Fin en Kaggle, y será de uno del cual hay bastante literatura por lo cual podra consultar como diferentres usuarios lo han logrado.
+
+Sobre la nota, esta se dará según el ranking que quede en la competencia.
+
+Dicho lo anterior deberá investigar como subir un notebook en kaggle, y verificar como se desarrollan metricas en la plataforma, al igual de como inscribirse y todos los requerimientos necesarios. La fecha máxima para esta entrega será el 2021-12-13.
+
+El reto es el siguiente:
+
+
+[![Open in Kaggle](https://img.shields.io/static/v1?label=&message=Open%20in%20kaggle&labelColor=gary&color=gray&logo=kaggle)](https://www.youtube.com/c/DataProfessor/videos)
 
 
 
