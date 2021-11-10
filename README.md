@@ -99,3 +99,9 @@ El reto es el siguiente:
 
 
 
+## Nota especial
+
+NO va a existir un examen final !!!!
+
+
+Ayyyy se lo creyeron 
