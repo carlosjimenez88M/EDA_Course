@@ -25,7 +25,7 @@ Dicho lo anterior este curso abarcará los siguientes temas (a alto nivel): Fund
 |Programas a instalar|[clase1](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/clase1.1.pdf)|No Aplica|
 |Introducción a Git y Github|[Clase 2](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/clase2.pdf)|[Notebook](https://github.com/carlosjimenez88M/EDA_Course/blob/master/Github_tools/toy_experience.py)|
 |Introducción a Python|[clase3](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/Python_Introduction.ipynb)|[Bucle](https://github.com/carlosjimenez88M/EDA_Course/blob/master/Notebooks/bucle.py)|
-|Introducción a Python II  [Clase 4](https://github.com/carlosjimenez88M/EDA_Course/blob/master/Notebooks/Intro_python.ipynb)|[Notebook](https://github.com/carlosjimenez88M/EDA_Course/blob/master/Notebooks/Intro_python.ipynb)|
+|Introducción a Python II|  [Clase 4](https://github.com/carlosjimenez88M/EDA_Course/blob/master/Notebooks/Intro_python.ipynb)|[Notebook](https://github.com/carlosjimenez88M/EDA_Course/blob/master/Notebooks/Intro_python.ipynb)|
 
 
 
