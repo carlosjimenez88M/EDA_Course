@@ -1,5 +1,5 @@
-Peso = float(input("Hey dime tu peso : "))
-Estatura = float(input("Hey dime tu estatura : "))
+Peso = float(input("Por favor ingrese su peso : "))
+Estatura = float(input("Por favor ingrese su estatura : "))
 BMI = Peso/(Estatura**2)
 if BMI <= 18.5:
     print('Tu indice de masa corporal es :', BMI, ' Estas flaco')
