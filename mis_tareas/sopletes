@@ -1,16 +1,23 @@
-# Sitio para estudiar
+# Clase 18 de noviembre de 2021
+
+## Sitio para estudiar
 KAGGLE: https://www.kaggle.com/competitions
 Ejercicio final
 predecir con Titanic
 
-Link
+- Link
 (https://www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python)
 (https://www.kaggle.com/startupsci/titanic-data-science-solutions)
 # imagenes
 (https://teachablemachine.withgoogle.com/train/image)
 
-Ejercicios iamges
-
+#Ejercicios iamges
 https://teachablemachine.withgoogle.com/train/image
 https://huggingface.co/course/chapter1 
 https://es.wikipedia.org/wiki/Raspberry_Pi
+
+# Modelos pre entrenados en python
+https://huggingface.co/models?language=es&pipeline_tag=fill-mask&sort=downloads
+
+
+
