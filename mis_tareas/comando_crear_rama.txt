@@ -1,4 +1,6 @@
 # COMANDOS PARA CREAR RAMAS GIT POR CONSOLA
+# Tomado de: https://desarrolloweb.com/articulos/trabajar-ramas-git.html
+
 1. git branch (me permite ver donde estoy)
 2. git branch wiroal (creo la rama wiroal)
 3. git show-branch (ver las ramas)
