@@ -2,5 +2,18 @@ Administrador en Informática, con aptitud para liderar y fomentar trabajo en eq
 Experiencia en análisis, diseño e implementación de aplicaciones Web basadas en formato de catalogación bibliográfica (formato Marc) y Norma Internacional General de Descripción Archivística (ISAD (G))
 Experiencia en diseño e implementación de bases de datos documentales Winisis (NOSQL). Conocimientos básicos en SQL (RDBMS) y MongoDB (NOSQL).
 
-  
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
