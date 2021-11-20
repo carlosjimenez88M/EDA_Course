@@ -6,3 +6,12 @@
 3. git show-branch (ver las ramas)
 4. git checkout wiroal (me permite ir a la rama que cree)
 5. git push -u origin wiroal (deberia dejarme subir este archivo a mi rama)
+
+# Comandos para resolver conflictos en git
+git log (evaluamos los cambios)
+git show + nombre del archivo (vemos los cambios al archivo particular)
+git reset + commit + --hard (devolemos los camibos)
+
+# Recuperando versiones  en git
+git log
+
