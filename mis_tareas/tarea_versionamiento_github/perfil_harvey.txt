@@ -1,3 +1,8 @@
+########################
+### agrrego un cambio###
+### a mi perfil#########
+########################
+
 E-mail   harbey.rodriguez@jep.gov.co
 Teléfono   7440041
 No reportado
@@ -9,3 +14,4 @@ Formación   Formación Académica
 * Profesional - ECONOMIA - Graduado
 * Profesional - INGENIERIA CATASTRAL Y GEODESIA - Graduado
 * Básica secundaria
+* Estado civil: unión libre
