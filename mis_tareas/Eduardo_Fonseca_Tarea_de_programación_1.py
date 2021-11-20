@@ -6,4 +6,3 @@ print("Tarea sorpresa")
 (-15*x)+x+16*x=(-20)+13-7
 x=(-20)+13-7
 print ("la solución es", x=0)
-# Es un comentario de prueba
