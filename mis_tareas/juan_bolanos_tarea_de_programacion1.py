@@ -11,7 +11,7 @@ for x in range(-10, 10):
         print ("**** El valor de x es:" + str(x) + "****")
 
 # Vista gráfica para identificar el x:
-x = np.linspace(0, 9, 100)
+x = np.linspace(-10, 10)
 plt.plot(
     x, (5 * ((-3 * x) - 2))-(-x - 3), 
     x, -4 * ((4 * x) + 5 ) + 13
