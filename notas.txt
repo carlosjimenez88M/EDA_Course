@@ -1,0 +1,195 @@
+leona@DESKTOP-0GGTFUU MINGW64 ~ (master)
+$ cd g:
+
+leona@DESKTOP-0GGTFUU MINGW64 /g
+$ cd 03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course/mis_tareas
+
+leona@DESKTOP-0GGTFUU MINGW64 /g/03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course/mis_tareas (master)
+$ git checkout Leonardo_Ulloa
+error: pathspec 'Leonardo_Ulloa' did not match any file(s) known to git
+
+leona@DESKTOP-0GGTFUU MINGW64 /g/03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course/mis_tareas (master)
+$ git branch Leonardo_Ulloa
+fatal: Not a valid object name: 'master'.
+
+leona@DESKTOP-0GGTFUU MINGW64 /g/03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course/mis_tareas (master)
+$ cd ..
+
+leona@DESKTOP-0GGTFUU MINGW64 /g/03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course (Leonardo_Ulloa)
+$ git checkout Leonardo_Ulloa
+Already on 'Leonardo_Ulloa'
+M       mis_tareas/Perfil_Leonardo_Ulloa.txt
+M       presentaciones/Python_Introduction.ipynb
+
+leona@DESKTOP-0GGTFUU MINGW64 /g/03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course (Leonardo_Ulloa)
+$ cd mis_tareas
+
+leona@DESKTOP-0GGTFUU MINGW64 /g/03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course/mis_tareas (master)
+$ code Perfil_Leonardo_Ulloa2.txt
+
+leona@DESKTOP-0GGTFUU MINGW64 /g/03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course/mis_tareas (master)
+$ git checkout Leonardo_Ulloa
+error: pathspec 'Leonardo_Ulloa' did not match any file(s) known to git
+
+leona@DESKTOP-0GGTFUU MINGW64 /g/03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course/mis_tareas (master)
+$ cd ..
+
+leona@DESKTOP-0GGTFUU MINGW64 /g/03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course (Leonardo_Ulloa)
+$ git checkout Leonardo_Ulloa
+Already on 'Leonardo_Ulloa'
+M       mis_tareas/Perfil_Leonardo_Ulloa.txt
+M       presentaciones/Python_Introduction.ipynb
+
+leona@DESKTOP-0GGTFUU MINGW64 /g/03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course (Leonardo_Ulloa)
+$ git status
+On branch Leonardo_Ulloa
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   mis_tareas/Perfil_Leonardo_Ulloa.txt
+        modified:   presentaciones/Python_Introduction.ipynb
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        mis_tareas/LeoUlloa_tarea_de_programacion_1.py
+        mis_tareas/Perfil_Leonardo_Ulloa2.txt
+        mis_tareas/Tarea.txt
+        mis_tareas/Tarea.xlsx
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+leona@DESKTOP-0GGTFUU MINGW64 /g/03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course (Leonardo_Ulloa)
+$ code .
+
+leona@DESKTOP-0GGTFUU MINGW64 /g/03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course (Leonardo_Ulloa)
+$ cd mis_tareas
+
+leona@DESKTOP-0GGTFUU MINGW64 /g/03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course/mis_tareas (master)
+$ git add Perfil_Leonardo_Ulloa2.txt
+
+leona@DESKTOP-0GGTFUU MINGW64 /g/03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course/mis_tareas (master)
+$ git commit -m 'Este es el comentario'
+[master (root-commit) c101c03] Este es el comentario
+ 1 file changed, 8 insertions(+)
+ create mode 100644 Perfil_Leonardo_Ulloa2.txt
+
+leona@DESKTOP-0GGTFUU MINGW64 /g/03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course/mis_tareas (master)
+$ git push origin Leonardo_Ulloa
+error: src refspec Leonardo_Ulloa does not match any
+error: failed to push some refs to 'origin'
+
+leona@DESKTOP-0GGTFUU MINGW64 /g/03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course/mis_tareas (master)
+$ cd ..
+
+leona@DESKTOP-0GGTFUU MINGW64 /g/03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course (Leonardo_Ulloa)
+$ git add Perfil_Leonardo_Ulloa2.txt
+fatal: pathspec 'Perfil_Leonardo_Ulloa2.txt' did not match any files
+
+leona@DESKTOP-0GGTFUU MINGW64 /g/03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course (Leonardo_Ulloa)
+$ git commit -m 'Este es el comentario'
+On branch Leonardo_Ulloa
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   mis_tareas/Perfil_Leonardo_Ulloa.txt
+        modified:   presentaciones/Python_Introduction.ipynb
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        mis_tareas/LeoUlloa_tarea_de_programacion_1.py
+        mis_tareas/Perfil_Leonardo_Ulloa2.txt
+        mis_tareas/Tarea.txt
+        mis_tareas/Tarea.xlsx
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+leona@DESKTOP-0GGTFUU MINGW64 /g/03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course (Leonardo_Ulloa)
+$ git push origin Leonardo_Ulloa
+ERROR: Permission to carlosjimenez88M/EDA_Course.git denied to leonardo0316.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+leona@DESKTOP-0GGTFUU MINGW64 /g/03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course (Leonardo_Ulloa)
+$ git pull
+remote: Enumerating objects: 199, done.
+remote: Counting objects: 100% (190/190), done.
+remote: Compressing objects: 100% (104/104), done.
+Receivremote: Total 167 (delta 90), reused 136 (delta 59), pack-reused 0
+Receiving objects: 100% (167/167), 814.00 KiB | 2.01 MiB/s, done.
+Resolving deltas: 100% (90/90), completed with 11 local objects.
+From github.com:carlosjimenez88M/EDA_Course
+ * [new branch]      Claudia_Pardo    -> origin/Claudia_Pardo
+   c142f96..e71ef01  Danilo_Soto      -> origin/Danilo_Soto
+ * [new branch]      Eduardo_Fonseca  -> origin/Eduardo_Fonseca
+ * [new branch]      Lenin-Davila     -> origin/Lenin-Davila
+ * [new branch]      Lenin_Davila     -> origin/Lenin_Davila
+   6bc065c..4ab8c73  carlos_alvira    -> origin/carlos_alvira
+ * [new branch]      carlos_cantor    -> origin/carlos_cantor
+   6768e0c..c7d24af  harvey           -> origin/harvey
+   047d6cc..1b8a134  leonardo_delgado -> origin/leonardo_delgado
+ * [new branch]      luz_gonzalez     -> origin/luz_gonzalez
+   c623549..67e1021  master           -> origin/master
+   7256c95..34b08bb  wiroal           -> origin/wiroal
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> Leonardo_Ulloa
+
+
+leona@DESKTOP-0GGTFUU MINGW64 /g/03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course (Leonardo_Ulloa)
+$ git add Perfil_Leonardo_Ulloa2.txt
+fatal: pathspec 'Perfil_Leonardo_Ulloa2.txt' did not match any files
+
+leona@DESKTOP-0GGTFUU MINGW64 /g/03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course (Leonardo_Ulloa)
+$ git add Perfil_Leonardo_Ulloa2.txt
+fatal: pathspec 'Perfil_Leonardo_Ulloa2.txt' did not match any files
+
+leona@DESKTOP-0GGTFUU MINGW64 /g/03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course (Leonardo_Ulloa)
+$ cd mis_tareas
+
+leona@DESKTOP-0GGTFUU MINGW64 /g/03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course/mis_tareas (master)
+$ git checkout Leonardo_Ulloa
+error: pathspec 'Leonardo_Ulloa' did not match any file(s) known to git
+
+leona@DESKTOP-0GGTFUU MINGW64 /g/03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course/mis_tareas (master)
+$ cd ..
+
+leona@DESKTOP-0GGTFUU MINGW64 /g/03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course (Leonardo_Ulloa)
+$ git add .
+warning: LF will be replaced by CRLF in presentaciones/Python_Introduction.ipynb.
+The file will have its original line endings in your working directory
+
+leona@DESKTOP-0GGTFUU MINGW64 /g/03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course (Leonardo_Ulloa)
+$ git commit -m 'algún mensaje'
+[Leonardo_Ulloa 6ceb1d8] algún mensaje
+ 6 files changed, 35 insertions(+), 3 deletions(-)
+ create mode 100644 mis_tareas/LeoUlloa_tarea_de_programacion_1.py
+ create mode 100644 mis_tareas/Perfil_Leonardo_Ulloa2.txt
+ create mode 100644 mis_tareas/Tarea.txt
+ create mode 100644 mis_tareas/Tarea.xlsx
+
+leona@DESKTOP-0GGTFUU MINGW64 /g/03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course (Leonardo_Ulloa)
+$ git push origin Leonardo_Ulloa
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (16/16), 9.08 KiB | 546.00 KiB/s, done.
+Total 16 (delta 8), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (8/8), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Leonardo_Ulloa' on GitHub by visiting:
+remote:      https://github.com/carlosjimenez88M/EDA_Course/pull/new/Leonardo_Ulloa
+remote:
+To github.com:carlosjimenez88M/EDA_Course.git
+ * [new branch]      Leonardo_Ulloa -> Leonardo_Ulloa
+
+leona@DESKTOP-0GGTFUU MINGW64 /g/03Tecnica/01-Lenguajes/PythonUnal/Repo/EDA_Course (Leonardo_Ulloa)
+$
