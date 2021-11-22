@@ -27,8 +27,8 @@ Dicho lo anterior este curso abarcará los siguientes temas (a alto nivel): Fund
 |Programación|Introducción a Python|[Clase 3](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/Python_Introduction.ipynb)|[Bucle](https://github.com/carlosjimenez88M/EDA_Course/blob/master/Notebooks/bucle.py)|
 |Programación|Introducción a Python II|  [Clase 4](https://github.com/carlosjimenez88M/EDA_Course/blob/master/Notebooks/Intro_python.ipynb)|[Notebook](https://github.com/carlosjimenez88M/EDA_Course/blob/master/Notebooks/Intro_python.ipynb)|
 |Programación|Introducción a Python II|  [Clase 4](https://github.com/carlosjimenez88M/EDA_Course/blob/master/Notebooks/Intro_python.ipynb)|[Notebook](https://github.com/carlosjimenez88M/EDA_Course/blob/master/Notebooks/Intro_python.ipynb)|
-|Programación|Fundamentos de Programación|  [Clase 5](https://github.com/carlosjimenez88M/EDA_Course/blob/master/Notebooks/Intro_python.ipynb)|[Notebook](https://github.com/carlosjimenez88M/EDA_Course/blob/master/Notebooks/Intro_python.ipynb)|
-|Programación|Eficiencia en programación|  [Clase 6](https://github.com/carlosjimenez88M/EDA_Course/blob/master/Notebooks/Intro_python.ipynb)|[Notebook](https://github.com/carlosjimenez88M/EDA_Course/blob/master/Notebooks/Intro_python.ipynb)|
+|Programación|Fundamentos de Programación|  [Clase 5](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/programaci%C3%B3n1.ipynb)|[Notebook](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/programaci%C3%B3n1.ipynb)|
+|Programación|Eficiencia en programación|  [Clase 6](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/programacion.ipynb)|[Notebook](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/programacion.ipynb)|
 
 
 
