@@ -15,6 +15,12 @@ El uso de modelos computacionales (en especial los de computación científica) 
 
 Dicho lo anterior este curso abarcará los siguientes temas (a alto nivel): Fundamentos de Python, fundamentos estadísticos, introducción al análisis probabilistico, y visualización de datos. Todo esto se llevará acabo en sesiones de dos horas por clase, los días: Lunes, miércoles y viernes.
 
+## Programas requeridos para el curso
+
+* [Python 3.8](https://www.python.org/downloads/macos/)
+* [Anaconda](https://www.anaconda.com/products/individual)
+* [Visual Studio Code](https://code.visualstudio.com/download)
+
 
 ## Contenido del curso
 
@@ -62,11 +68,6 @@ Dicho lo anterior este curso abarcará los siguientes temas (a alto nivel): Fund
  |Fundamentos de github|Tutorial|Introducción end to end github|[Link](https://docs.github.com/en/get-started/quickstart/git-and-github-learning-resources)|
  
 
-## Programas requeridos para el curso
-
-* [Python 3.8](https://www.python.org/downloads/macos/)
-* [Anaconda](https://www.anaconda.com/products/individual)
-* [Visual Studio Code](https://code.visualstudio.com/download)
 
 
 ## Canales recomendados
@@ -93,7 +94,7 @@ Dicho lo anterior deberá investigar como subir un notebook en kaggle, y verific
 El reto es el siguiente:
 
 
-[![Open in Kaggle](https://img.shields.io/static/v1?label=&message=Open%20in%20kaggle&labelColor=gary&color=gray&logo=kaggle)](https://www.youtube.com/c/DataProfessor/videos)
+[![Open in Kaggle](https://img.shields.io/static/v1?label=&message=Open%20in%20kaggle&labelColor=gary&color=gray&logo=kaggle)](https://www.kaggle.com/c/titanic)
 
 
 
