@@ -13,3 +13,10 @@ def run():
 
 if __name__ == '__main__':
     run()
+
+# Genera error (WIROAL)
+#    py bucle.py
+# Traceback (most recent call last):
+#  File "bucle.py", line 16, in <module>
+#    correr ()
+# NameError: name 'correr' is not defined
