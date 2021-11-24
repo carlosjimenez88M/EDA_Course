@@ -18,17 +18,11 @@ Dicho lo anterior este curso abarcará los siguientes temas (a alto nivel): Fund
 
 ## Contenido del curso
 
-|Tema|Clase|Presentación|Notebook|
-|-----:|-----:|-----------:|------:|
-|Tecnologías|Presentación del curso|[Introducción](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/clase0.pdf)|No aplica|
-|Tecnologías |Metodología de trabajo en Ciencia de datos|[Devops](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/clase0.1.pdf)|[Bert Example](https://colab.research.google.com/drive/1lkCDwp84CVZtBxzrQiMmAwLt8aCqnQMv?authuser=1#scrollTo=xFER1f6SR3my)|
-|Tecnologías |Programas a instalar|[Clase 1](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/clase1.1.pdf)|No Aplica|
-|Tecnologías |Introducción a Git y Github|[Clase 2](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/clase2.pdf)|[Notebook](https://github.com/carlosjimenez88M/EDA_Course/blob/master/Github_tools/toy_experience.py)|
-|Programación|Introducción a Python|[Clase 3](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/Python_Introduction.ipynb)|[Bucle](https://github.com/carlosjimenez88M/EDA_Course/blob/master/Notebooks/bucle.py)|
-|Programación|Introducción a Python II|  [Clase 4](https://github.com/carlosjimenez88M/EDA_Course/blob/master/Notebooks/Intro_python.ipynb)|[Notebook](https://github.com/carlosjimenez88M/EDA_Course/blob/master/Notebooks/Intro_python.ipynb)|
-|Programación|Introducción a Python II|  [Clase 4](https://github.com/carlosjimenez88M/EDA_Course/blob/master/Notebooks/Intro_python.ipynb)|[Notebook](https://github.com/carlosjimenez88M/EDA_Course/blob/master/Notebooks/Intro_python.ipynb)|
-|Programación|Fundamentos de Programación|  [Clase 5](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/programaci%C3%B3n1.ipynb)|[Notebook](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/programaci%C3%B3n1.ipynb)|
-|Programación|Eficiencia en programación|  [Clase 6](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/programacion.ipynb)|[Notebook](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/programacion.ipynb)|
+|Tema|Clase|
+|-----:|-----:|
+|Estructura del curso| <ul><li> [1 - Presentación del curso](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/clase0.pdf) </ul><li>  [2 - Metodología de trabajo](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/clase0.1.pdf)
+
+
 
 
 
