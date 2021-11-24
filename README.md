@@ -20,7 +20,10 @@ Dicho lo anterior este curso abarcará los siguientes temas (a alto nivel): Fund
 
 |Tema|Clase|
 |-----:|-----:|
-|Estructura del curso| <ul><li> [1 - Presentación del curso](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/clase0.pdf) </ul><li>  [2 - Metodología de trabajo](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/clase0.1.pdf)
+|Estructura del curso| <ul><li> [1 - Presentación del curso](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/clase0.pdf) </li> <li> [2 - Metodología de trabajo](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/clase0.1.pdf) </li> <li> [3 - Programas a instalar](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/clase1.1.pdf)|
+|Software| <ul><li>  [Introducción a Git y Github](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/clase2.pdf) |
+|Programación|<ul><li> [1 - Introducción a Python](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/Python_Introduction.ipynb) </li> <li> [2 - Manejo de operadores](https://github.com/carlosjimenez88M/EDA_Course/blob/master/Notebooks/Intro_python.ipynb)</li> <li> [3 - bases de programación](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/programaci%C3%B3n1.ipynb) </li> <li> [4 - Programación eficiente](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/programacion.ipynb)|
+
 
 
 
