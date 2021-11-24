@@ -15,19 +15,28 @@ El uso de modelos computacionales (en especial los de computación científica) 
 
 Dicho lo anterior este curso abarcará los siguientes temas (a alto nivel): Fundamentos de Python, fundamentos estadísticos, introducción al análisis probabilistico, y visualización de datos. Todo esto se llevará acabo en sesiones de dos horas por clase, los días: Lunes, miércoles y viernes.
 
+## Programas requeridos para el curso
+
+* [Python 3.8](https://www.python.org/downloads/macos/)
+* [Anaconda](https://www.anaconda.com/products/individual)
+* [Visual Studio Code](https://code.visualstudio.com/download)
+
 
 ## Contenido del curso
 
-|Clase|Presentación|Notebook|
-|-----:|-----------:|------:|
-|Presentación del curso|[Introducción](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/clase0.pdf)|No aplica|
-|Metodología de trabajo en Ciencia de datos|[Devops](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/clase0.1.pdf)|[Bert Example](https://colab.research.google.com/drive/1lkCDwp84CVZtBxzrQiMmAwLt8aCqnQMv?authuser=1#scrollTo=xFER1f6SR3my)|
-|Programas a instalar|[Clase 1](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/clase1.1.pdf)|No Aplica|
-|Introducción a Git y Github|[Clase 2](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/clase2.pdf)|[Notebook](https://github.com/carlosjimenez88M/EDA_Course/blob/master/Github_tools/toy_experience.py)|
-|Introducción a Python|[Clase 3](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/Python_Introduction.ipynb)|[Bucle](https://github.com/carlosjimenez88M/EDA_Course/blob/master/Notebooks/bucle.py)|
-|Introducción a Python II|  [Clase 4](https://github.com/carlosjimenez88M/EDA_Course/blob/master/Notebooks/Intro_python.ipynb)|[Notebook](https://github.com/carlosjimenez88M/EDA_Course/blob/master/Notebooks/Intro_python.ipynb)|
+|Tema|Clase|
+|-----:|-----:|
+|Estructura del curso| <ul><li> [1 - Presentación del curso](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/clase0.pdf) </li> <li> [2 - Metodología de trabajo](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/clase0.1.pdf) </li> <li> [3 - Programas a instalar](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/clase1.1.pdf)|
+|Software| <ul><li>  [Introducción a Git y Github](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/clase2.pdf) |
+|Programación|<ul><li> [1 - Introducción a Python](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/Python_Introduction.ipynb) </li> <li> [2 - Manejo de operadores](https://github.com/carlosjimenez88M/EDA_Course/blob/master/Notebooks/Intro_python.ipynb)</li> <li> [3 - bases de programación](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/programaci%C3%B3n1.ipynb) </li> <li> [4 - Programación eficiente](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/programacion.ipynb)|
+|Pandas| <ul><li> [1 - Introducción a Pandas](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/pandas_I.ipynb) </li> <li> [2- Aplicaciones con Pandas](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/Example_pandas.ipynb)|
 
 
+
+## Tareas
+|Actividad|Base de Datos|Fecha de entrega|
+|--------:|-------------|---------------:|
+|Con base a la clase de [Pandas 1](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/pandas_I.ipynb) Desarrolle un análisis completo sobre la base de datos propuesta|[Olympics](https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-07-27/olympics.csv)|2021-11-27|
 
 
 ## Lecturas recomendadas
@@ -63,11 +72,6 @@ Dicho lo anterior este curso abarcará los siguientes temas (a alto nivel): Fund
  |Fundamentos de github|Tutorial|Introducción end to end github|[Link](https://docs.github.com/en/get-started/quickstart/git-and-github-learning-resources)|
  
 
-## Programas requeridos para el curso
-
-* [Python 3.8](https://www.python.org/downloads/macos/)
-* [Anaconda](https://www.anaconda.com/products/individual)
-* [Visual Studio Code](https://code.visualstudio.com/download)
 
 
 ## Canales recomendados
@@ -94,7 +98,7 @@ Dicho lo anterior deberá investigar como subir un notebook en kaggle, y verific
 El reto es el siguiente:
 
 
-[![Open in Kaggle](https://img.shields.io/static/v1?label=&message=Open%20in%20kaggle&labelColor=gary&color=gray&logo=kaggle)](https://www.youtube.com/c/DataProfessor/videos)
+[![Open in Kaggle](https://img.shields.io/static/v1?label=&message=Open%20in%20kaggle&labelColor=gary&color=gray&logo=kaggle)](https://www.kaggle.com/c/titanic)
 
 
 
