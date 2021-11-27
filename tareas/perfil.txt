@@ -1,0 +1,5 @@
+Soy Carlos Cantor, economista y politólogo de la universidad de los Andes. Trabajo
+en la JEP y mi ocio preferido es jugar fútbol. Tengo 30 años y me metí en esto
+del análisis de datos cuando empecé analizar las dinámicas del conflicto armado 
+colombiano hace aproximadamente dos años. De hecho, hace un año aprendí a usar
+R a la fuerza y ahora estoy haciendo lo mismo con Python.
