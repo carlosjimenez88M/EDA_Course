@@ -39,7 +39,7 @@ Dicho lo anterior este curso abarcará los siguientes temas (a alto nivel): Fund
 |Actividad|Base de Datos|Fecha de entrega|
 |--------:|-------------|---------------:|
 |Con base a la clase de [Pandas 1](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/pandas_I.ipynb) Desarrolle un análisis completo sobre la base de datos propuesta|[Olympics](https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-07-27/olympics.csv)|2021-11-27|
-|Con base a la clase de [Limpieza de datos](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/pandasII.ipynb) Desarrolle un análisis completo con pandas y limpieza de datos del set propuesto|[Banco](https://github.com/carlosjimenez88M/EDA_Course/blob/master/bases_de_datos/banking_dirty.csv)|2021-12-04|
+|Con base a la clase de [Limpieza de datos](https://github.com/carlosjimenez88M/EDA_Course/blob/master/presentaciones/pandasII.ipynb) Desarrolle un análisis completo con pandas y limpieza de datos del set propuesto|[Bank](https://github.com/carlosjimenez88M/EDA_Course/blob/master/bases_de_datos/banking_dirty.csv)|2021-12-04|
 
 
 ## Lecturas recomendadas
