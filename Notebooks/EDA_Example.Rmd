@@ -1,0 +1,396 @@
+---
+title: "Untitled"
+author: "Daniel Jiménez"
+date: "12/13/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache = FALSE,warning = FALSE, message = FALSE)
+```
+
+
+```{r}
+### Import libraries -----
+library(tidyverse)
+library(tidytext)
+library(scales)
+theme_set(theme_bw())
+```
+
+```{r}
+records <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-05-25/records.csv')
+drivers <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-05-25/drivers.csv')
+
+```
+
+
+## Qué datos tengo??
+
+```{r}
+records %>%
+  head()
+```
+
+```{r}
+drivers %>%
+  head()
+```
+
+
+```{r}
+full_dataset<-records %>%
+  left_join(drivers,by='player')
+```
+
+
+
+```{r}
+## primero limpiamos la data
+full_dataset<-full_dataset %>%
+  distinct(player,date,time_period,time,date,.keep_all = T)
+```
+
+
+```{r}
+full_dataset %>%
+  filter(!is.na(nation)) %>%
+  filter(nation %in%c('USA','UK')) %>%
+  ggplot(aes(time, fill=nation))+
+  geom_histogram(alpha=.9)
+```
+* Con esto podemos diferenciar en magnitudes entre entes y magnitud.
+
+## Conteo
+
+análisis de frecuencia 
+
+
+```{r}
+full_dataset %>%
+  filter(!is.na(nation)) %>%
+  group_by(nation)%>%
+  count(sort = T) %>%
+  ungroup()%>%
+  mutate(pct=n/sum(n)) %>%
+  mutate(nation=fct_reorder(nation,n,sum)) %>%
+  ggplot(aes(n,nation,fill=nation))+
+  geom_col(show.legend = F)
+```
+
+
+```{r}
+full_dataset %>%
+  filter(!is.na(nation)) %>%
+  group_by(nation)%>%
+  count(sort = T) %>%
+  ungroup()%>%
+  mutate(pct=n/sum(n)) %>%
+  mutate(nation=fct_reorder(nation,pct,sum)) %>%
+  ggplot(aes(pct,nation,fill=nation))+
+  geom_col(show.legend = F)+
+  scale_x_continuous(labels = percent)
+```
+
+
+```{r}
+full_dataset %>%
+  filter(!is.na(nation)) %>%
+  group_by(nation)%>%
+  summarize(avg=mean(time)) %>%
+  arrange(desc(avg))
+
+```
+
+```{r}
+full_dataset %>%
+  filter(!is.na(nation)) %>%
+  group_by(nation)%>%
+  summarize(avg=mean(time)) %>%
+  arrange(desc(avg)) %>%
+  ungroup() %>%
+  mutate(nation=str_to_title(nation))%>%
+  mutate(nation=fct_reorder(nation,avg))%>%
+  ggplot(aes(avg,nation,color=avg>90))+
+  geom_point(aes(size=avg))
+```
+
+
+
+```{r}
+full_dataset %>%
+  filter(!is.na(nation)) %>%
+  group_by(nation)%>%
+  summarize(avg=mean(time),
+            median=median(time),
+            min=min(time),
+            max=max(time)) %>%
+  ggplot(aes(max))+
+  geom_histogram()
+```
+
+
+
+```{r}
+full_dataset %>%
+  filter(!is.na(nation),
+         nation!='Slovenia') %>%
+  group_by(nation)%>%
+  summarize(avg=mean(time),
+            median=median(time),
+            min=min(time),
+            max=max(time),
+            p25=quantile(time)[2],
+            p75=quantile(time)[4])%>%
+  ungroup() %>%
+  mutate(nation=fct_reorder(nation,median))%>%
+  ggplot(aes(median,nation,color=nation))+
+  geom_errorbarh(aes(xmin=p25,xmax=p75))+
+  geom_point(aes(size=median))+
+  guides(color='none')
+```
+
+
+```{r, fig.height=4}
+full_dataset %>%
+  group_by(track,nation) %>%
+  summarize(avg=mean(time),
+            median=median(time),
+            min=min(time),
+            max=max(time),
+            p25=quantile(time)[2],
+            p75=quantile(time)[4])%>%
+  ungroup() %>%
+  mutate(track=factor(track),
+         nation=reorder_within(nation,median,track)) %>%
+  ggplot(aes(median,nation, fill=nation))+
+  geom_col(show.legend = FALSE)+
+  scale_y_reordered()+
+  facet_wrap(~track, scales = 'free')
+```
+
+
+```{r, fig.height=4}
+full_dataset %>%
+  group_by(track,nation) %>%
+  summarize(avg=mean(time),
+            median=median(time),
+            min=min(time),
+            max=max(time),
+            p25=quantile(time)[2],
+            p75=quantile(time)[4])%>%
+  ungroup() %>%
+  mutate(track=factor(track),
+         nation=reorder_within(nation,median,track)) %>%
+  ggplot(aes(median,nation, color=nation))+
+  geom_errorbarh(aes(xmin=p25,xmax=p75))+
+  geom_point(aes(size=median),show.legend = F)+
+  scale_y_reordered()+
+  guides(color='none')+
+  facet_wrap(~track, scales = 'free')
+```
+
+
+## Y cómo estan distribuidos los datos ??
+
+
+```{r}
+full_dataset %>%
+  filter(!is.na(nation),
+         nation!='Slovenia') %>%
+  mutate(nation=fct_reorder(nation,time,sum)) %>%
+  ggplot(aes(time,nation,group=nation, fill=nation,color=nation))+
+  geom_point(color='black',aes(size=time),  show.legend = F, alpha=.4)+
+  geom_boxplot(outlier.colour = 'red',alpha=.4, show.legend = F)
+
+```
+
+
+Ahora filtramos para poder analizar los datos de manera correcta
+
+```{r}
+full_dataset %>%
+  filter(!is.na(nation),
+         nation!='Slovenia') %>%
+  filter(time<250) %>%
+  mutate(nation=fct_reorder(nation,time,sum)) %>%
+  ggplot(aes(time,nation,group=nation, fill=nation,color=nation))+
+  geom_point(color='black',aes(size=time),  show.legend = F, alpha=.4)+
+  geom_boxplot(outlier.colour = 'red',alpha=.4, show.legend = F)
+```
+
+
+```{r}
+library(lubridate)
+full_dataset%>%
+  group_by(player,date=year(date)) %>%
+  count(sort = T)  %>%
+  arrange(desc(date)) %>%
+  mutate(date=factor(date)) %>%
+  ungroup() %>%
+  mutate(date=fct_reorder(date,n,sum))%>%
+  ggplot(aes(n,factor(date)))+
+  geom_boxplot()
+```
+
+
+
+```{r}
+filtro_por_año<-full_dataset%>%
+  group_by(date=year(date)) %>%
+  count(sort = T)  %>%
+  arrange(desc(date)) %>%
+  mutate(date=factor(date)) %>%
+  arrange(desc(n)) %>%
+  filter(n>22) %>%
+  select(date)
+
+
+full_dataset %>%
+  mutate(año=year(date)) %>%
+  filter(!año %in% filtro_por_año) %>%
+  ggplot(aes(año,time))+
+  geom_smooth()+
+  geom_point()
+```
+
+
+
+
+```{r}
+full_dataset %>%
+  mutate(año=year(date)) %>%
+  filter(!año %in% filtro_por_año) %>%
+  group_by(año) %>%
+  summarize(time=mean(time))%>%
+  ggplot(aes(año,time))+
+  geom_smooth()+
+  geom_point()
+```
+
+
+
+## Web scraping ---
+
+
+```{r}
+library(rvest)
+url <- 'https://es.investing.com/currencies/usd-cop-historical-data'
+tabla<-url %>%
+  read_html() %>%
+  html_nodes('#curr_table') %>%
+  html_table() %>%
+  .[[1]]
+
+tabla %>%
+  mutate(Fecha=str_replace_all(Fecha,'[.]','-'),
+         Fecha=dmy(Fecha)) %>%
+  select(Fecha,Último) %>%
+  ggplot(aes(Fecha,Último))+
+  geom_point()
+```
+
+```{r}
+library(forecast)
+
+tabla %>%
+  mutate(Fecha=str_replace_all(Fecha,'[.]','-'),
+         Fecha=dmy(Fecha))%>%
+  rename(Dolar='Último') %>%
+  select(Fecha,Dolar)%>%
+  mutate(Dolar=gsub('.{3}$', '', Dolar),
+         Dolar=as.numeric(Dolar))%>%
+  ts()%>%
+  mstl()%>%
+  autoplot()
+    
+  
+
+```
+
+
+
+```{r}
+tabla %>%
+  mutate(Fecha=str_replace_all(Fecha,'[.]','-'),
+         Fecha=dmy(Fecha))%>%
+  rename(Dolar='Último') %>%
+  select(Fecha,Dolar)%>%
+  mutate(Dolar=gsub('.{3}$', '', Dolar),
+         Dolar=as.numeric(Dolar))%>%
+  select(Dolar) %>% 
+  ts() %>% 
+  ggtsdisplay()
+```
+
+
+```{r}
+tabla %>%
+  mutate(Fecha=str_replace_all(Fecha,'[.]','-'),
+         Fecha=dmy(Fecha))%>%
+  rename(Dolar='Último') %>%
+  select(Fecha,Dolar)%>%
+  mutate(Dolar=gsub('.{3}$', '', Dolar),
+         Dolar=as.numeric(Dolar))%>%
+  mutate(Dolar_daily_change = Dolar - lag(Dolar, 1)) %>% 
+  ggplot(aes(x = Fecha, 
+             y = Dolar_daily_change)) + 
+  geom_smooth()+
+  geom_point(aes(size=Dolar_daily_change),alpha=0.5, show.legend = F)+
+  geom_line()
+```
+```{r}
+Dolar<-tabla %>%
+  mutate(Fecha=str_replace_all(Fecha,'[.]','-'),
+         Fecha=dmy(Fecha))%>%
+  rename(Dolar='Último') %>%
+  select(Fecha,Dolar)%>%
+  mutate(Dolar=gsub('.{3}$', '', Dolar),
+         Dolar=as.numeric(Dolar))%>%
+  mutate(Dolar_daily_change = Dolar - lag(Dolar, 1))
+```
+
+
+
+```{r}
+Dolar %>% 
+  select(Dolar_daily_change) %>% 
+  ts() %>% 
+  ggtsdisplay()
+```
+
+
+```{r}
+Dolar %>% 
+  select(Dolar_daily_change) %>% 
+  ts() %>% 
+  mstl() %>% 
+  autoplot()
+```
+```{r}
+Dolar %>% 
+  select(Dolar) %>% 
+  ts() %>% 
+  auto.arima() %>% 
+  forecast(h = 1)
+```
+
+
+```{r}
+Dolar %>% 
+  select(Dolar) %>% 
+  ts() %>% 
+  auto.arima() %>% 
+  forecast(h = 1) %>%
+  autoplot()
+```
+
+```{r}
+Dolar %>% 
+  select(Dolar) %>% 
+  ts() %>% 
+  ets() %>% 
+  forecast(h=1) %>% 
+  autoplot()
+```
+
